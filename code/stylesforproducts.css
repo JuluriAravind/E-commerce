@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+    padding: 0.5rem;
+}
+table{
+    width: 100%;
+   
+}
+.header.c1{
+    text-align: center;
+}
+#home h1 span{
+    color: cornflowerblue;
+}
+h2{
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 10px black;
+    font-weight: bolder;
+    width:30%;
+    margin: 2%;
+    font-size: 2rem;
+
+}
+img{
+    box-shadow: 0 0 10px black;
+    border-radius:5%;
+}
+td{
+    text-align: center;
+    
+}
+.first{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+			
+    color:#44c0c5;
+
+}
+/*responsive*/
+@media (max-width:7680px ){
+    h2{
+        font-size: 1.5rem;
+    }
+
+}
+@media (max-width:400px ){
+     
+    h2{
+        font-size: 1rem;
+    }
+}
